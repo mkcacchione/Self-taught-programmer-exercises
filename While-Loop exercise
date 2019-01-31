@@ -1,0 +1,10 @@
+qs = ["what is your name?", "what is your age?", "how tall are you?"]
+n=0
+while True:
+	print ("type q to quit")
+	a = input(qs[n])
+	if a == "q":
+		break
+	n = (n+1) % 3
+  
+  
